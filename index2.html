@@ -125,7 +125,7 @@
         // scene.add( new THREE.CameraHelper( dirLight.shadow.camera ) );
         const modelFile = "models/Teto/Teto.pmx";
         const vmdFiles = [
-          "models/idle/idle.vmd",
+          "models/idle/Air Scent Idle Animation/Smelling Something in the Air.vmd",
           //   "models/animations/3.vmd",
           //   "models/animations/5.vmd",
         ];
@@ -155,7 +155,7 @@
             model = mmd.mesh;
             helper.add(model, {
               animation: mmd.animation,
-              physics: true,
+              physics: false,
             });
             // Only add to scene for the first helper
             model.position.y = -10;
